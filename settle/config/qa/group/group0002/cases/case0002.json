@@ -1,0 +1,28 @@
+{
+  "id": "0001",
+  "tag": "限价、完全成交、taker、maker都是阶梯费率",
+  "type": "SPOT",
+  "case_actions": [
+    {
+      "case_action_type": "ORDER",
+      "order_action": {
+        "id": 33,
+        "uid": 1684030166546863872,
+        "symbol": "BNBUSDT",
+        "side": "SELL",
+        "type": "LIMIT",
+        "price_base_ticker_price": {
+          "symbol_id": "BNBUSDT",
+          "price_mod": 100,
+          "price_offset": 0
+        },
+        "quantity": "0.1"
+      }
+    },
+    {
+      "case_action_type": "SETTLE_CHECK",
+      "predict_trade_details": [
+      ]
+    }
+  ]
+}

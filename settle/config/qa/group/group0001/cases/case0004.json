@@ -1,0 +1,82 @@
+{
+  "id": "0004",
+  "tag": "限价、买卖开仓、部分成交、taker、maker都是阶梯费率, 多taker吃一个maker",
+  "type": "FUTURES",
+  "case_actions": [
+    {
+      "case_action_type": "ORDER",
+      "order_action": {
+        "id": 33,
+        "uid": 1684030166546863872,
+        "symbol": "BTCUSDT-PERPETUAL",
+        "side": "BUY_OPEN",
+        "type": "LIMIT",
+        "price_base_mark_price": {
+          "symbol_id": "BTCUSDT-PERPETUAL",
+          "price_mod": 1000,
+          "price_offset": 0
+        },
+        "quantity": 31
+      }
+    },
+    {
+      "case_action_type": "ORDER",
+      "order_action": {
+        "id": 44,
+        "uid": 1720932433497546752,
+        "symbol": "BTCUSDT-PERPETUAL",
+        "side": "SELL_OPEN",
+        "type": "LIMIT",
+        "price_base_mark_price": {
+          "symbol_id": "BTCUSDT-PERPETUAL",
+          "price_mod": 1000,
+          "price_offset": 0
+        },
+        "quantity": 24,
+        "is_taker": true
+      }
+    },
+    {
+      "case_action_type": "ORDER",
+      "order_action": {
+        "id": 55,
+        "uid": 1720932433497546752,
+        "symbol": "BTCUSDT-PERPETUAL",
+        "side": "SELL_OPEN",
+        "type": "LIMIT",
+        "price_base_mark_price": {
+          "symbol_id": "BTCUSDT-PERPETUAL",
+          "price_mod": 1000,
+          "price_offset": 0
+        },
+        "quantity": 24,
+        "is_taker": true
+      }
+    },
+    {
+      "case_action_type": "SETTLE_CHECK",
+      "predict_trade_details": [
+        {
+          "taker_id": 44,
+          "maker_id": 33,
+          "quantity": 24
+        },
+        {
+          "taker_id": 55,
+          "maker_id": 33,
+          "quantity": 7
+        }
+      ]
+    },
+    {
+      "case_action_type": "CANCEL_USER_ORDERS",
+      "uid_list": [
+        1684030166546863872,
+        1720932433497546752
+      ],
+      "symbol_list": [
+        "BTCUSDT-PERPETUAL"
+      ]
+    }
+  ]
+}

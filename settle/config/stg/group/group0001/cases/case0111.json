@@ -1,0 +1,97 @@
+{
+  "id": "0111",
+  "tag": "限价、平仓多吃一、部分成交、taker 1X、maker 7X都是特殊费率",
+  "type": "FUTURES",
+  "case_actions": [
+    {
+      "case_action_type": "ORDER",
+      "order_action": {
+        "id": 33,
+        "uidTag": "special1",
+        "symbolTag": "futures1",
+        "side": "SELL_CLOSE",
+        "type": "LIMIT",
+        "price_base_mark_price": {
+          "price_mod": "1000",
+          "price_offset": "0.1"
+        },
+        "quantity": 31
+      }
+    },
+    {
+      "case_action_type": "ORDER",
+      "order_action": {
+        "id": 44,
+        "uidTag": "counter",
+        "symbolTag": "futures1",
+        "side": "BUY_CLOSE",
+        "type": "LIMIT",
+        "price_base_mark_price": {
+          "price_mod": "1000",
+          "price_offset": "1.1"
+        },
+        "quantity": 7
+      }
+    },
+    {
+      "case_action_type": "ORDER",
+      "order_action": {
+        "id": 55,
+        "uidTag": "counter",
+        "symbolTag": "futures1",
+        "side": "BUY_CLOSE",
+        "type": "LIMIT",
+        "price_base_mark_price": {
+          "price_mod": "1000",
+          "price_offset": "0.1"
+        },
+        "quantity": 5
+      }
+    },
+    {
+      "case_action_type": "ORDER",
+      "order_action": {
+        "id": 99,
+        "uidTag": "counter",
+        "symbolTag": "futures1",
+        "side": "BUY_CLOSE",
+        "type": "LIMIT",
+        "price_base_mark_price": {
+          "price_mod": "1000",
+          "price_offset": "0.1"
+        },
+        "quantity": 3
+      }
+    },
+    {
+      "case_action_type": "SETTLE_CHECK",
+      "predict_trade_details": [
+        {
+          "taker_id": 44,
+          "maker_id": 33,
+          "quantity": 7
+        },
+        {
+          "taker_id": 55,
+          "maker_id": 33,
+          "quantity": 5
+        },
+        {
+          "taker_id": 99,
+          "maker_id": 33,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "case_action_type": "CANCEL_USER_ORDERS",
+      "uid_tag_list": [
+        "counter",
+        "special1"
+      ],
+      "symbol_tag_list": [
+        "futures1"
+      ]
+    }
+  ]
+}

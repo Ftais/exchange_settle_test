@@ -1,0 +1,51 @@
+{
+  "id": "0100",
+  "tag": "撤掉挂单",
+  "type": "FUTURES",
+  "case_actions": [
+    {
+      "case_action_type": "CANCEL_USER_ORDERS",
+      "uid_tag_list": [
+        "special1",
+        "counter"
+      ],
+      "symbol_tag_list": [
+        "futures1"
+      ]
+    },
+    {
+      "case_action_type": "WAIT_MOMENT",
+      "seconds": 2
+    },
+    {
+      "case_action_type": "CLEAR_POSITION",
+      "uid_tag_list": [
+        "special1",
+        "counter"
+      ],
+      "symbol_tag_list": [
+        "futures1"
+      ]
+    },
+    {
+      "case_action_type": "CANCEL_USER_ORDERS",
+      "uid_tag_list": [
+        "special1",
+        "counter"
+      ],
+      "symbol_tag_list": [
+        "futures1"
+      ]
+    },
+    {
+      "case_action_type": "RESET_LAST_PRICE_TO_MARK_PRICE",
+      "reset_last_price_to_mark_price": {
+        "symbol_tag": "futures1",
+        "price_mod": 1000,
+        "price_offset": 0,
+        "taker_uid_tag": "special1",
+        "maker_uid_tag": "counter"
+      }
+    }
+  ]
+}

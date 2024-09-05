@@ -1,0 +1,127 @@
+[
+  {
+    "tag": "RESET_LAST_PRICE_TO_MARK_PRICE",
+    "name": "futuresAutoTestSettle05@qq.com",
+    "password": "Aa123456",
+    "uid": 1720382068989432832,
+    "uidTag": "reset1",
+    "spotAccountId": 1720382068955878400,
+    "futuresAccountId": 1720382806826226688,
+    "apiKey": "eJqAEzm2FWkp4R0D8nZHZbqUenE8gFx8jizht3OnQya8D3u1dSBDqIgsR58c6GL1",
+    "secretKey": "1Iiru7VOQRr8hcKHX64ufhKWVkTjDSpjzP142m66oP42gvS9DKFByh943Vo9L9x3",
+    "fee_list": [
+      {
+        "symbol_id": "FATS1USDT-PERPETUAL",
+        "maker_fee": "0.00016",
+        "taker_fee": "0.00021"
+      }
+    ]
+  },
+  {
+    "tag": "RESET_LAST_PRICE_TO_MARK_PRICE",
+    "name": "futuresAutoTestSettle06@qq.com",
+    "password": "Aa123456",
+    "uid": 1720383755628123136,
+    "uidTag": "reset2",
+    "spotAccountId": 1720383755594568704,
+    "futuresAccountId": 1720385790427599872,
+    "apiKey": "tQUOSU6hr12f3FfGDfJ4xRykO8eVmZ3WW6Rga7blKjaFCM76D3tUYnisY0VIi1Qd",
+    "secretKey": "g5mfvL82jIdNf1lbjLGZidqLu1npCINYq6cxAxp9xxaN9GfMx9d3n3D0PYvPbOUO",
+    "fee_list": [
+      {
+        "symbol_id": "FATS1USDT-PERPETUAL",
+        "maker_fee": "0.00016",
+        "taker_fee": "0.00021"
+      }
+    ]
+  },
+  {
+    "tag": "企业 10X step shard2",
+    "name": "futuresAutoTestSettle01@qq.com",
+    "password": "Aa123456",
+    "uid": 1717471196948254208,
+    "spotAccountId": 1717471196939865600,
+    "futuresAccountId": 1717472147268488704,
+    "apiKey": "pMBkyAsmKTgQwg24iAXSFefecsRtBrx349owJwLEsw1ttMJnadb1vQdyWLIXKNlT",
+    "secretKey": "3LVBOsa7GPf0c60LvotnGZQRj8ueiCGWcbhnAKbVOqtiSN4cGyMpsYZqtBhEHz0j",
+    "fee_list": [
+      {
+        "symbol_id": "FATS1USDT-PERPETUAL",
+        "maker_fee": "0.00016",
+        "taker_fee": "0.00021"
+      }
+    ]
+  },
+  {
+    "tag": "个人MM 7X special",
+    "name": "futuresAutoTestSettle02@qq.com",
+    "password": "Aa123456",
+    "uid": 1717472660869402112,
+    "uidTag": "special1",
+    "spotAccountId": 1717472660852624896,
+    "futuresAccountId": 1717476339718606336,
+    "apiKey": "JSMWy7XZ7dliO0HrqMEi8TVPijjt4sfKpW9ssjBYMliEGU8KeaQAJQbgbRFfKy62",
+    "secretKey": "WROtuDMZv9VPYC1HcYftsi0gkGi1fIrdtQkwewoHQqjlqsHKHL6YjRxXT7jVM8Li",
+    "fee_list": [
+      {
+        "symbol_id": "FATS1USDT-PERPETUAL",
+        "maker_fee": "0.009",
+        "taker_fee": "0.011"
+      }
+    ]
+  },
+  {
+    "tag": "子账户 7X special",
+    "type": "subAccount",
+    "name": "futuresAuto02",
+    "password": "Aa123456",
+    "uid": 1717484047666884608,
+    "spotAccountId": 1717484047733760256,
+    "futuresAccountId": 1717484048354517248,
+    "apiKey": "hUrpgneUlIxgxZJquJ7EolN07QhJEZCJnICWSgbRl8sEPfOcbgwWhZyqG0HXv26h",
+    "secretKey": "M4enG4qB94KirX97Y4iR0nmWwpdSmCagjTIWCgIR6Gqsna6UeGrhkdtXUeUV0s0h",
+    "fee_list": [
+      {
+        "symbol_id": "FATS1USDT-PERPETUAL",
+        "maker_fee": "0.009",
+        "taker_fee": "0.011"
+      }
+    ]
+  },
+  {
+    "tag": "机构 10X negative maker",
+    "name": "futuresAutoTestSettle04@qq.com",
+    "password": "Aa123456",
+    "uid": 1717475270162697728,
+    "uidTag": "negative",
+    "spotAccountId": 1717475270145920512,
+    "futuresAccountId": 1717490923254980864,
+    "apiKey": "xmjojfM5fy2odbwNw8wFz6DFyFSNupVTxewA4eakW3rH73zl0uz0WCmYx3RKx7Wg",
+    "secretKey": "yB9ZzEBkDRTkgv2Ruc0YXJCNmY4XboBHsNw5WExAfxE9qbjlWK1BjXngGo7YCV3S",
+    "fee_list": [
+      {
+        "symbol_id": "FATS1USDT-PERPETUAL",
+        "maker_fee": "-0.011",
+        "taker_fee": "0.012"
+      }
+    ]
+  },
+  {
+    "tag": "对手单 企业MM  1X special",
+    "name": "futuresAutoTestSettle03@qq.com",
+    "password": "Aa123456",
+    "uid": 1717473126621695488,
+    "uidTag": "counter",
+    "spotAccountId": 1717473126604918272,
+    "futuresAccountId": 1717473959174262272,
+    "apiKey": "SeMGomWLk2ezb8lof4gchneqXYMInMrVz2uj7V8lJ0JMc2Yf2D2OhrYcBrD4yJlw",
+    "secretKey": "Klunqx6pmDQJwH3iSO3MIQJVqpxkWBh2wyFPEsLF1o18eK6hvwgux3GfmTuRFLqh",
+    "fee_list": [
+      {
+        "symbol_id": "FATS1USDT-PERPETUAL",
+        "maker_fee": "0.00016",
+        "taker_fee": "0.00021"
+      }
+    ]
+  }
+]

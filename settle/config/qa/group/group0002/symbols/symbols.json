@@ -1,0 +1,10 @@
+[
+  {
+    "symbol_id": "BNBUSDT",
+    "market_price_low_rate": "0.01",
+    "market_price_high_rate": "0.01",
+    "base_token": "BNB",
+    "quote_token": "USDT",
+    "min_qty": "0.001"
+  }
+]

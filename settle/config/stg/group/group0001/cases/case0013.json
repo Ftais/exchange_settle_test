@@ -1,0 +1,28 @@
+{
+  "id": "0013",
+  "tag": "limit ioc、买入平空、完全撤单",
+  "type": "FUTURES",
+  "case_actions": [
+    {
+      "case_action_type": "ORDER",
+      "order_action": {
+        "id": 33,
+        "uidTag": "counter",
+        "symbolTag": "futures1",
+        "side": "BUY_CLOSE",
+        "type": "LIMIT",
+        "price_base_mark_price": {
+          "price_mod": "1000",
+          "price_offset": "0"
+        },
+        "timeInForce": "IOC",
+        "quantity": 10
+      }
+    },
+    {
+      "case_action_type": "SETTLE_CHECK",
+      "predict_trade_details": [
+      ]
+    }
+  ]
+}

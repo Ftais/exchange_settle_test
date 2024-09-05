@@ -1,0 +1,8 @@
+[
+  {
+    "symbol_id": "BTCUSDT-PERPETUAL",
+    "contract_multiplier": "0.001",
+    "market_price_low_rate": "0.01",
+    "market_price_high_rate": "0.01"
+  }
+]

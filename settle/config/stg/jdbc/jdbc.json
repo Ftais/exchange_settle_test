@@ -1,0 +1,26 @@
+[
+  {
+    "name": "bb_shard_1",
+    "host": "bermuda-stg-bbshard1-aurora-instance-1.cfnoluvk0qoh.ap-northeast-1.rds.amazonaws.com",
+    "port": 4470,
+    "user": "admin",
+    "password": "jvM8Mk8Ln3QpuPLj",
+    "schema": "bb_shard_1"
+  },
+  {
+    "name": "bb_shard_2",
+    "host": "bermuda-stg-bbshard2-aurora-instance-1.cfnoluvk0qoh.ap-northeast-1.rds.amazonaws.com",
+    "port": 4470,
+    "user": "admin",
+    "password": "jvM8Mk8Ln3QpuPLj",
+    "schema": "bb_shard_2"
+  },
+  {
+    "name": "bb_server",
+    "host": "bermuda-stg-bbserver-aurora-instance-1.cfnoluvk0qoh.ap-northeast-1.rds.amazonaws.com",
+    "port": 4470,
+    "user": "admin",
+    "password": "jvM8Mk8Ln3QpuPLj",
+    "schema": "bb_server"
+  }
+]

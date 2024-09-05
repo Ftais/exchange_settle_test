@@ -1,0 +1,53 @@
+[
+  {
+    "tag": "SETTLE",
+    "name": "xibajie16@qq.com",
+    "password": "Aa123456",
+    "uid": 1684030166546863872,
+    "spotAccountId": 1684030166530086656,
+    "futuresAccountId": 1684031765121870848,
+    "apiKey": "baohydeI5ROhJ4EZMtCiGb5XGg9oqpHAZdbcuUHEadquvyKakxvAkL89gIyCuoJu",
+    "secretKey": "xI5lGMDng0UP22OVqRHzErjujcpiZcWuqi16fcUaSMYjWa7gk1xHVegiAFg1Qq6H",
+    "fee_list": [
+      {
+        "symbol_id": "BNBUSDT",
+        "maker_fee": "0.00072",
+        "taker_fee": "0.00072"
+      }
+    ]
+  },
+  {
+    "tag": "SETTLE",
+    "name": "xibajie17@qq.com",
+    "password": "Aa123456",
+    "uid": 1720932433497546752,
+    "spotAccountId": 1720932433455603712,
+    "futuresAccountId": 1720933470648262656,
+    "apiKey": "YlYcmyCTiUt4pFefvTurrNrrv9A3J3y3X45kguML10OQLKkF7nxChyvJkgHazecz",
+    "secretKey": "0FUCZYQ0vMwnhnuQK7So1X1dJuvvJdVAP7JRCzBHm6UkJzkic8qaLoUMBzaehVFP",
+    "fee_list": [
+      {
+        "symbol_id": "BNBUSDT",
+        "maker_fee": "0.00072",
+        "taker_fee": "0.00072"
+      }
+    ]
+  },
+  {
+    "tag": "SETTLE",
+    "name": "xibajie18@qq.com",
+    "password": "Aa123456",
+    "uid": 1722385551619827200,
+    "spotAccountId": 1722385551586272768,
+    "futuresAccountId": 1722389812923639296,
+    "apiKey": "vnxTpopqQwiHvvM5qNSIEDQ5OoiMyAm3KYIIhKVL3rZZhz3lefO4b3fZ2xkqovgs",
+    "secretKey": "DAeQBpXhV3Jvw0QzM0Isor0OYxVt4ifSB47hUunFFd5W5Vebm598joSnXdTCqNAv",
+    "fee_list": [
+      {
+        "symbol_id": "BNBUSDT",
+        "maker_fee": "0.00072",
+        "taker_fee": "0.00072"
+      }
+    ]
+  }
+]

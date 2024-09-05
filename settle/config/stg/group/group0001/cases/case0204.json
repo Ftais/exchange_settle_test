@@ -1,0 +1,82 @@
+{
+  "id": "0203",
+  "tag": "限价、买卖开仓、平仓、完全成交、taker 1X、负maker 10X 负maker是作为taker成交的，正常计算手续费扣减",
+  "type": "FUTURES",
+  "case_actions": [
+    {
+      "case_action_type": "ORDER",
+      "order_action": {
+        "id": 33,
+        "uidTag": "counter",
+        "symbolTag": "futures1",
+        "side": "SELL_OPEN",
+        "type": "LIMIT",
+        "price_base_mark_price": {
+          "price_mod": "1000",
+          "price_offset": "0.1"
+        },
+        "quantity": 1
+      }
+    },
+    {
+      "case_action_type": "ORDER",
+      "order_action": {
+        "id": 44,
+        "uidTag": "negative",
+        "symbolTag": "futures1",
+        "side": "BUY_OPEN",
+        "type": "LIMIT",
+        "price_base_mark_price": {
+          "price_mod": "1000",
+          "price_offset": "0.1"
+        },
+        "quantity": 1
+      }
+    },
+    {
+      "case_action_type": "ORDER",
+      "order_action": {
+        "id": 55,
+        "uidTag": "counter",
+        "symbolTag": "futures1",
+        "side": "BUY_CLOSE",
+        "type": "LIMIT",
+        "price_base_mark_price": {
+          "price_mod": "1000",
+          "price_offset": "0.1"
+        },
+        "quantity": 1
+      }
+    },
+    {
+      "case_action_type": "ORDER",
+      "order_action": {
+        "id": 66,
+        "uidTag": "negative",
+        "symbolTag": "futures1",
+        "side": "SELL_CLOSE",
+        "type": "LIMIT",
+        "price_base_mark_price": {
+          "price_mod": "1000",
+          "price_offset": "0.1"
+        },
+        "quantity": 1
+      }
+    },
+    {
+      "case_action_type": "SETTLE_CHECK",
+      "predict_trade_details": [
+        {
+          "taker_id": 44,
+          "maker_id": 33,
+          "quantity": 1
+        },
+        {
+          "taker_id": 66,
+          "maker_id": 55,
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}

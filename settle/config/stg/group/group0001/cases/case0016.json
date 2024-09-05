@@ -1,0 +1,28 @@
+{
+  "id": "0016",
+  "tag": "limit fok、卖出平多、完全撤单",
+  "type": "FUTURES",
+  "case_actions": [
+    {
+      "case_action_type": "ORDER",
+      "order_action": {
+        "id": 33,
+        "uidTag": "special1",
+        "symbolTag": "futures1",
+        "side": "SELL_CLOSE",
+        "type": "LIMIT",
+        "price_base_mark_price": {
+          "price_mod": "1000",
+          "price_offset": "0"
+        },
+        "timeInForce": "FOK",
+        "quantity": 10
+      }
+    },
+    {
+      "case_action_type": "SETTLE_CHECK",
+      "predict_trade_details": [
+      ]
+    }
+  ]
+}

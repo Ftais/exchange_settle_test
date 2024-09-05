@@ -1,0 +1,26 @@
+[
+  {
+    "name": "bb_shard_1",
+    "host": "db-main.qa1.bmuxdc.com",
+    "port": 3306,
+    "user": "admin",
+    "password": "jvM8Mk8Ln3QpuPLj",
+    "schema": "bb_shard_1"
+  },
+  {
+    "name": "bb_shard_2",
+    "host": "db-main.qa1.bmuxdc.com",
+    "port": 3306,
+    "user": "admin",
+    "password": "jvM8Mk8Ln3QpuPLj",
+    "schema": "bb_shard_2"
+  },
+  {
+    "name": "bb_server",
+    "host": "db-main.qa1.bmuxdc.com",
+    "port": 3306,
+    "user": "admin",
+    "password": "jvM8Mk8Ln3QpuPLj",
+    "schema": "bb_server"
+  }
+]

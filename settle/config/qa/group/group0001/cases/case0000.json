@@ -1,0 +1,53 @@
+{
+  "id": "0000",
+  "tag": "撤掉挂单",
+  "case_actions": [
+    {
+      "case_action_type": "CANCEL_USER_ORDERS",
+      "uid_list": [
+        1684030166546863872,
+        1720932433497546752,
+        1722385551619827200
+      ],
+      "symbol_list": [
+        "BTCUSDT-PERPETUAL"
+      ]
+    },
+    {
+      "case_action_type": "WAIT_MOMENT",
+      "seconds": 2
+    },
+    {
+      "case_action_type": "CLEAR_POSITION",
+      "uid_list": [
+        1684030166546863872,
+        1720932433497546752,
+        1722385551619827200
+      ],
+      "symbol_list": [
+        "BTCUSDT-PERPETUAL"
+      ]
+    },
+    {
+      "case_action_type": "CANCEL_USER_ORDERS",
+      "uid_list": [
+        1684030166546863872,
+        1720932433497546752,
+        1722385551619827200
+      ],
+      "symbol_list": [
+        "BTCUSDT-PERPETUAL"
+      ]
+    },
+    {
+      "case_action_type": "RESET_LAST_PRICE_TO_MARK_PRICE",
+      "reset_last_price_to_mark_price": {
+        "symbol_id": "BTCUSDT-PERPETUAL",
+        "price_mod": 1000,
+        "price_offset": 0,
+        "taker_uid": 1684030166546863872,
+        "maker_iod": 1720932433497546752
+      }
+    }
+  ]
+}

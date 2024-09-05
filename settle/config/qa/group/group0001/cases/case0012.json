@@ -1,0 +1,56 @@
+{
+  "id": "0012",
+  "tag": "限价、买卖平仓、部分成交撤单、taker、maker都是阶梯费率",
+  "type": "FUTURES",
+  "case_actions": [
+    {
+      "case_action_type": "ORDER",
+      "order_action": {
+        "id": 33,
+        "uid": 1684030166546863872,
+        "symbol": "BTCUSDT-PERPETUAL",
+        "side": "SELL_CLOSE",
+        "type": "LIMIT",
+        "price_base_mark_price": {
+          "symbol_id": "BTCUSDT-PERPETUAL",
+          "price_mod": 1000,
+          "price_offset": 0
+        },
+        "quantity": 8
+      }
+    },
+    {
+      "case_action_type": "ORDER",
+      "order_action": {
+        "id": 44,
+        "uid": 1720932433497546752,
+        "symbol": "BTCUSDT-PERPETUAL",
+        "side": "BUY_CLOSE",
+        "type": "LIMIT",
+        "price_base_mark_price": {
+          "symbol_id": "BTCUSDT-PERPETUAL",
+          "price_mod": 1000,
+          "price_offset": 0
+        },
+        "quantity": 9
+      }
+    },
+    {
+      "case_action_type": "ORDER",
+      "order_action": {
+        "uid": 1720932433497546752,
+        "cancelId": 44
+      }
+    },
+    {
+      "case_action_type": "SETTLE_CHECK",
+      "predict_trade_details": [
+        {
+          "taker_id": 44,
+          "maker_id": 33,
+          "quantity": 8
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "0012",
+  "tag": "限价、开仓下撤单、完全撤单",
+  "type": "FUTURES",
+  "case_actions": [
+    {
+      "case_action_type": "ORDER",
+      "order_action": {
+        "id": 33,
+        "uid": 1684030166546863872,
+        "symbol": "BTCUSDT-PERPETUAL",
+        "side": "SELL_CLOSE",
+        "type": "LIMIT",
+        "price_base_mark_price": {
+          "symbol_id": "BTCUSDT-PERPETUAL",
+          "price_mod": 1000,
+          "price_offset": 0
+        },
+        "quantity": 8
+      }
+    },
+    {
+      "case_action_type": "ORDER",
+      "order_action": {
+        "uid": 1684030166546863872,
+        "cancelId": 33
+      }
+    },
+    {
+      "case_action_type": "SETTLE_CHECK",
+      "predict_trade_details": [
+      ]
+    }
+  ]
+}

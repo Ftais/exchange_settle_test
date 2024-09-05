@@ -1,0 +1,9 @@
+[
+  {
+    "symbol_id": "FATS1USDT-PERPETUAL",
+    "symbol_tag": "futures1",
+    "contract_multiplier": "0.001",
+    "market_price_low_rate": "0.04",
+    "market_price_high_rate": "0.04"
+  }
+]

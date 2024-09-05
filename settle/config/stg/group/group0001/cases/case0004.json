@@ -1,0 +1,36 @@
+{
+  "id": "0004",
+  "tag": "限价、卖出平多、挂单",
+  "type": "FUTURES",
+  "case_actions": [
+    {
+      "case_action_type": "ORDER",
+      "order_action": {
+        "id": 33,
+        "uidTag": "special1",
+        "symbolTag": "futures1",
+        "side": "SELL_CLOSE",
+        "type": "LIMIT",
+        "price_base_mark_price": {
+          "price_mod": "1000",
+          "price_offset": "0"
+        },
+        "quantity": 10
+      }
+    },
+    {
+      "case_action_type": "SETTLE_CHECK",
+      "predict_trade_details": [
+      ]
+    },
+    {
+      "case_action_type": "CANCEL_USER_ORDERS",
+      "uid_tag_list": [
+        "special1"
+      ],
+      "symbol_tag_list": [
+        "futures1"
+      ]
+    }
+  ]
+}
